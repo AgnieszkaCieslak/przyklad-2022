@@ -20,18 +20,20 @@
   </head>
   <body>
     <header class="header">
+
       <!----------------- NAV ----------------->
 
-      <section class="menu-index container">
+      <div class="menu-index container">
         <a class="logo" href="index.html"
           >Web<span class="logo-black">Studio</span></a
         >
 
         <!-- --------------   A   P   K  -------------- -->
 
-        <nav class="nav-margin">
-          <ul class="list-nav-index">
-            <li><a class="links-menu blue" href="#">Agencja</a></li>
+        <nav>
+          <ul class="nav-margin list-nav-index">
+            <li>
+              <a class="links-menu blue" style="position: relative" href="#">Agencja</a></li>
             <li>
               <a class="links-menu dark" href="portfolio.html">Portfolio</a>
             </li>
@@ -41,8 +43,8 @@
 
         <!-- --------------    M    T    -------------- -->
 
-        <div class="menu-margin">
-          <ul class="list-adr-index">
+        <div>
+          <ul class="menu-margin list-adr-index">
             <li>
               <a
                 class="links-menu dark-grey mail-menu"
@@ -65,12 +67,12 @@
             </li>
           </ul>
         </div>
-      </section>
+      </div>
     </header>
-
+<main>
     <!----------------- HEADER & BUTTON ------->
-
-    <div class="header-index">
+<section class="header-index"></section>
+    <div class="container">
       <h1 class="header-text-index">
         EFEKTYWNE&nbsp;ROZWIĄZANIA&nbsp;DLA WASZEGO&nbsp;BIZNESU
       </h1>
@@ -78,11 +80,12 @@
         Zamów usługe
       </button>
     </div>
+  </section>
 
     <!-------------------OUR STRENGTHS --------------->
 
-    <section>
-      <div class="container section">
+    <section class="section">
+      <div class="container">
         <ul class="list-lorem-index">
           <li class="box-lorem-index-left">
             <div class="icon-box">
@@ -150,33 +153,33 @@
 
     <!-----------------WHAT DO WE DO ------------------>
 
-    <section>
+    <section class="what-do-we-do-section">
       <div class="container">
         <h2 class="header-what-do-we-do-index">Czym się zajmujemy</h2>
         <ul class="image-list-index">
-          <li class="what-do-we-do-image">
+          <li class="what-do-we-do-list" style="position: relative">
             <img
-              class="image-what-do-we-do"
+              class="what-do-we-do-image"
               src="images/coding-image.jpg"
               alt="typing-in-front-of-the-monitor"
             />
-            <div class="dimnest">Aplikacje komputerowe</div>
+            <div class="dimnest" style="position: absolute">Aplikacje komputerowe</div>
           </li>
-          <li class="what-do-we-do-image">
+          <li class="what-do-we-do-list" style="position: relative">
             <img
               class="image-what-do-we-do"
               src="images/layout-image.jpg"
               alt="Layout"
             />
-            <div class="dimnest">Aplikacje mobilne</div>
+            <div class="dimnest" style="position: absolute">Aplikacje mobilne</div>
           </li>
-          <li class="what-do-we-do-image">
+          <li class="what-do-we-do-list" style="position: relative">
             <img
               class="image-what-do-we-do"
               src="images/design-image.jpg"
               alt="Design"
             />
-            <div class="dimnest">Rozwiązania graficzne</div>
+            <div class="dimnest" style="position: absolute">Rozwiązania graficzne</div>
           </li>
         </ul>
       </div>
@@ -185,8 +188,9 @@
     <!-----------------OUR TEAM------------------>
 
     <section class="our-team-index section">
+      <div class="container">
       <h2 class="header-our-team-index">Nasz zespół</h2>
-      <ul class="list-team-index container">
+      <ul class="list-team-index">
         <li>
           <figure class="image-team-index">
             <img
@@ -368,12 +372,15 @@
           </figure>
         </li>
       </ul>
+      </div>
     </section>
 
     <!-- -----------------OUR CLIENTS------------------ -->
 
-    <section class="our-clients container section">
+    <section class="our-clients section">
+      <div class="container">
       <h2>Nasi klienci</h2>
+      <!-- class="list-icons-footer" -->
       <ul class="list-icons-our-clients">
         <li>
           <a class="icon-our-clients" href="#">
@@ -412,12 +419,14 @@
           ></a>
         </li>
       </ul>
+      </div>
     </section>
+</main>
 
     <!-- -----------------FOOTER------------------ -->
 
     <footer class="footer-index">
-      <div class="container footer-wraper">
+      <div class="footer-wraper container">
         <address>
           <a class="logo-footer" href="index.html"
             >Web<span class="logo-white">Studio</span></a
