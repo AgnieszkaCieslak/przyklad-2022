@@ -20,17 +20,7 @@
   --t-duration: 250ms;
   --t-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  /*  DO HOLOGRAMOWEGO TŁA
-  --space: 5%;
-    --angle: 133deg;
-    --mx: 50%;
-    --my: 50%;
-    --imgsize: 50% 42%;
-        --pos: 50% 50%;
-    --posx: 50%;
-    --posy: 50%;
-    --hyp: 0; */
-}
+  }
 body {
   margin: 0 0 0 0;
   padding: 0;
@@ -1028,6 +1018,7 @@ textarea[id="comment"].input-contact-details::-webkit-input-placeholder {
 }
 
 /* PORTFOLIO */
+
 /* PORTFOLIO BUTTONS */
 
 .main-portfolio {
